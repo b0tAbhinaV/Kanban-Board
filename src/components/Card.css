@@ -1,0 +1,41 @@
+/* Card styling */
+.card {
+    background: #fef9f9;
+    border-left: 6px solid #ff758c;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+    position: relative; /* Allows positioning the checkbox */
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* When the card is marked as done */
+  .card-done {
+    background: #e0f7fa; /* Light teal for done cards */
+    text-decoration: line-through; /* Strike-through text for done tasks */
+    opacity: 0.8;
+  }
+  
+  /* Card header */
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Checkbox styling */
+  .card-checkbox {
+    cursor: pointer;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: 0;
+    accent-color: #6a11cb; /* Color for checkbox when checked */
+  }
+  
